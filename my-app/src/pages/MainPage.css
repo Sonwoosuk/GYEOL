@@ -539,13 +539,15 @@
   opacity: 0;
 }
 
-/* Hover cross-fade effect */
-.collection-banner:hover .collection-banner-bg.default-bg {
+/* Hover cross-fade effect — .touch-hover는 모바일 첫 탭에서 같은 효과를 보여주기 위한 클래스 */
+.collection-banner:hover .collection-banner-bg.default-bg,
+.collection-banner.touch-hover .collection-banner-bg.default-bg {
   opacity: 0.15; /* Soften the texture image instead of fully disappearing, or 0 for clean cut */
   opacity: 0;
 }
 
-.collection-banner:hover .collection-banner-bg.hover-bg {
+.collection-banner:hover .collection-banner-bg.hover-bg,
+.collection-banner.touch-hover .collection-banner-bg.hover-bg {
   opacity: 1;
 }
 
@@ -557,7 +559,8 @@
   z-index: 1;
 }
 
-.collection-banner:hover .collection-banner-overlay {
+.collection-banner:hover .collection-banner-overlay,
+.collection-banner.touch-hover .collection-banner-overlay {
   background: rgba(8, 12, 12, 0.35);
 }
 
@@ -605,7 +608,8 @@
 }
 
 /* Premium micro-animations on hover: stretch the vector line smoothly */
-.collection-banner:hover .collection-banner-arrow-line svg {
+.collection-banner:hover .collection-banner-arrow-line svg,
+.collection-banner.touch-hover .collection-banner-arrow-line svg {
   transform: scaleX(1.15);
 }
 

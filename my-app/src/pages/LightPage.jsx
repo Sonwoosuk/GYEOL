@@ -6,6 +6,7 @@ import ProductOptionsModal from '../components/ProductOptionsModal'
 import { useAuth } from '../context/AuthContext'
 import { useCart } from '../context/CartContext'
 import { buildCartItem, toPriceNumber } from '../lib/productOptions'
+import { useTouchHover } from '../lib/useTouchHover'
 import mainData from '../data/main.json'
 import lightData from '../data/light.json'
 import './LightPage.css'
@@ -14,6 +15,7 @@ export default function LightPage() {
   const { hero: mainHero } = mainData
   const { hero, collection, products, process } = lightData
   const { addItem } = useCart()
+  const { guardTap, touchHoverClass } = useTouchHover()
   const { user } = useAuth()
   const navigate = useNavigate()
   const [activeCategory, setActiveCategory] = useState('rings')
@@ -181,7 +183,11 @@ export default function LightPage() {
             {products.map((product, index) => (
               <article
                 key={product.id}
-                className="light-product-card"
+                className={`light-product-card ${touchHoverClass(product.id)}`}
+                onClickCapture={(event) => {
+                  // 모바일: 첫 탭은 카드 포커스 효과만, 두 번째 탭에 상세로 이동 (카트 버튼은 예외)
+                  if (event.target.closest('a')) guardTap(product.id)(event)
+                }}
                 style={{ transitionDelay: `${index * 0.05}s` }}
               >
                 <Link to={`/product/light/${product.id}`} className="product-detail-link">

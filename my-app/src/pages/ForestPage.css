@@ -251,7 +251,8 @@
 }
 
 /* 호버한 카드만 포커스: 나머지 카드는 블러 + 축소 */
-.forest-product-grid:has(.forest-product-card:hover) .forest-product-card:not(:hover) {
+.forest-product-grid:has(.forest-product-card:hover) .forest-product-card:not(:hover),
+.forest-product-grid:has(.forest-product-card.touch-hover) .forest-product-card:not(.touch-hover) {
   filter: blur(4px);
   transform: scale(0.98);
   opacity: 0.7;

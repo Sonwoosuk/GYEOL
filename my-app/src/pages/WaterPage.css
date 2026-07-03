@@ -259,7 +259,8 @@
 }
 
 /* 호버한 카드만 포커스: 나머지 카드는 블러 + 축소 */
-.water-product-grid:has(.water-product-card:hover) .water-product-card:not(:hover) {
+.water-product-grid:has(.water-product-card:hover) .water-product-card:not(:hover),
+.water-product-grid:has(.water-product-card.touch-hover) .water-product-card:not(.touch-hover) {
   filter: blur(4px);
   transform: scale(0.98);
   opacity: 0.7;

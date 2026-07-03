@@ -4,10 +4,12 @@ import BlurText from '../components/BlurText'
 import CollectionHeroTop from '../components/CollectionHeroTop'
 import mainData from '../data/main.json'
 import collectionsData from '../data/collections.json'
+import { useTouchHover } from '../lib/useTouchHover'
 
 export default function MainPage() {
   const { hero, collage, collageText, intro } = mainData
   const { collections } = collectionsData
+  const { guardTap, touchHoverClass } = useTouchHover()
 
   useEffect(() => {
     const observerOptions = {
@@ -216,9 +218,10 @@ export default function MainPage() {
           <a
             key={col.id}
             href={`/${col.id}`}
-            className="collection-banner reveal reveal-up"
-            style={{ 
-              transitionDelay: `${idx * 0.1}s` 
+            className={`collection-banner reveal reveal-up ${touchHoverClass(col.id)}`}
+            onClick={guardTap(col.id)}
+            style={{
+              transitionDelay: `${idx * 0.1}s`
             }}
           >
             {/* Default background image layer */}

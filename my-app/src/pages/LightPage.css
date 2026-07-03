@@ -253,7 +253,8 @@
 }
 
 /* 호버한 카드만 포커스: 나머지 카드는 블러 + 축소 */
-.light-product-grid:has(.light-product-card:hover) .light-product-card:not(:hover) {
+.light-product-grid:has(.light-product-card:hover) .light-product-card:not(:hover),
+.light-product-grid:has(.light-product-card.touch-hover) .light-product-card:not(.touch-hover) {
   filter: blur(4px);
   transform: scale(0.98);
   opacity: 0.7;
