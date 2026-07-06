@@ -212,8 +212,6 @@ if (guestItems.length > 0) {
 
 | 항목 | 개선 전 | 개선 후 |
 |:---:|:---:|:---:|
-| Lighthouse Performance | — | — |
-| First Contentful Paint | — | — |
 
 ---
 
