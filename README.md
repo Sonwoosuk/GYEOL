@@ -24,13 +24,13 @@ Water / Earth / Forest / Light 4개의 자연 테마 컬렉션을 GSAP · Motion
 
 <!-- 메인 화면 스크린샷. 필요 시 컬렉션별 이미지 추가 -->
 
-![Main](public/images/screenshot-main.png)
+![Main](my-app/public/images/screenshot-main.png)
 
 **4개의 자연 테마 컬렉션**
 
 | Water | Earth | Forest | Light |
 |:---:|:---:|:---:|:---:|
-| ![Water](public/images/screenshot-water.png) | ![Earth](public/images/screenshot-earth.png) | ![Forest](public/images/screenshot-forest.png) | ![Light](public/images/screenshot-light.png) |
+| ![Water](my-app/public/images/screenshot-water.png) | ![Earth](my-app/public/images/screenshot-earth.png) | ![Forest](my-app/public/images/screenshot-forest.png) | ![Light](my-app/public/images/screenshot-light.png) |
 
 ---
 
@@ -120,7 +120,7 @@ Water / Earth / Forest / Light 4개의 자연 테마 컬렉션을 GSAP · Motion
 |:---|:---|
 | 배포 사이트 | [my-app-three-eosin-90.vercel.app](https://my-app-three-eosin-90.vercel.app) |
 | GitHub | [github.com/Sonwoosuk/GYEOL](https://github.com/Sonwoosuk/GYEOL) |
-| 기획서 | [GYEOL 기획서 (PDF)](docs/GYEOL_기획서_손우석.pdf) |
+| 기획서 | [GYEOL 기획서 (PDF)](my-app/docs/GYEOL_기획서_손우석.pdf) |
 | 디자인 (Figma) | [일체형페이지 디자인](https://www.figma.com/design/Zx3emy4MkmigNbELYRtJje/%EC%9D%BC%EC%B2%B4%ED%98%95%ED%8E%98%EC%9D%B4%EC%A7%80%EB%94%94%EC%9E%90%EC%9D%B8_%EC%86%90%EC%9A%B0%EC%84%9D?node-id=0-1) |
 
 ---
@@ -142,14 +142,14 @@ GYEOL(결)은 물 · 땅 · 숲 · 빛, 자연의 결에서 영감을 받은 가
 
 <table>
   <tr>
-    <td align="center"><img src="public/images/screenshot-hero.png" width="280"><br><b>메인 히어로 인터랙션</b></td>
-    <td align="center"><img src="public/images/screenshot-forest.png" width="280"><br><b>4개 자연 테마 컬렉션</b></td>
-    <td align="center"><img src="public/images/screenshot-detail.png" width="280"><br><b>상품 상세 (메탈·사이즈 옵션)</b></td>
+    <td align="center"><img src="my-app/public/images/screenshot-hero.png" width="280"><br><b>메인 히어로 인터랙션</b></td>
+    <td align="center"><img src="my-app/public/images/screenshot-forest.png" width="280"><br><b>4개 자연 테마 컬렉션</b></td>
+    <td align="center"><img src="my-app/public/images/screenshot-detail.png" width="280"><br><b>상품 상세 (메탈·사이즈 옵션)</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="public/images/screenshot-cart.png" width="280"><br><b>장바구니 & Polar 결제</b></td>
-    <td align="center"><img src="public/images/screenshot-login.png" width="280"><br><b>이메일 / Google 로그인</b></td>
-    <td align="center"><img src="public/images/screenshot-search.png" width="280"><br><b>전체 상품 검색</b></td>
+    <td align="center"><img src="my-app/public/images/screenshot-cart.png" width="280"><br><b>장바구니 & Polar 결제</b></td>
+    <td align="center"><img src="my-app/public/images/screenshot-login.png" width="280"><br><b>이메일 / Google 로그인</b></td>
+    <td align="center"><img src="my-app/public/images/screenshot-search.png" width="280"><br><b>전체 상품 검색</b></td>
   </tr>
 </table>
 
