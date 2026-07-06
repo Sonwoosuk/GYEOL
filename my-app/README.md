@@ -121,7 +121,7 @@ Water / Earth / Forest / Light 4개의 자연 테마 컬렉션을 GSAP · Motion
 | 배포 사이트 | [my-app-three-eosin-90.vercel.app](https://my-app-three-eosin-90.vercel.app) |
 | GitHub | [github.com/Sonwoosuk/GYEOL](https://github.com/Sonwoosuk/GYEOL) |
 | 기획서 | [GYEOL 기획서 (PDF)](docs/GYEOL_기획서_손우석.pdf) |
-| 디자인 (Figma) | — |
+| 디자인 (Figma) | [일체형페이지 디자인](https://www.figma.com/design/Zx3emy4MkmigNbELYRtJje/%EC%9D%BC%EC%B2%B4%ED%98%95%ED%8E%98%EC%9D%B4%EC%A7%80%EB%94%94%EC%9E%90%EC%9D%B8_%EC%86%90%EC%9A%B0%EC%84%9D?node-id=0-1) |
 
 ---
 
