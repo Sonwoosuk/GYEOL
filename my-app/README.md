@@ -24,10 +24,13 @@ Water / Earth / Forest / Light 4개의 자연 테마 컬렉션을 GSAP · Motion
 
 <!-- 메인 화면 스크린샷. 필요 시 컬렉션별 이미지 추가 -->
 
-| Main | Collection |
-|:---:|:---:|
-| ![Main](public/images/screenshot-main.png) | ![Collection](public/images/screenshot-collection.png) |
-| 메인 페이지 | 컬렉션 페이지 |
+![Main](public/images/screenshot-main.png)
+
+**4개의 자연 테마 컬렉션**
+
+| Water | Earth | Forest | Light |
+|:---:|:---:|:---:|:---:|
+| ![Water](public/images/screenshot-water.png) | ![Earth](public/images/screenshot-earth.png) | ![Forest](public/images/screenshot-forest.png) | ![Light](public/images/screenshot-light.png) |
 
 ---
 
@@ -140,7 +143,7 @@ GYEOL(결)은 물 · 땅 · 숲 · 빛, 자연의 결에서 영감을 받은 가
 <table>
   <tr>
     <td align="center"><img src="public/images/screenshot-hero.png" width="280"><br><b>메인 히어로 인터랙션</b></td>
-    <td align="center"><img src="public/images/screenshot-collection.png" width="280"><br><b>4개 자연 테마 컬렉션</b></td>
+    <td align="center"><img src="public/images/screenshot-forest.png" width="280"><br><b>4개 자연 테마 컬렉션</b></td>
     <td align="center"><img src="public/images/screenshot-detail.png" width="280"><br><b>상품 상세 (메탈·사이즈 옵션)</b></td>
   </tr>
   <tr>
